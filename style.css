@@ -12,7 +12,7 @@ h1,h2,h3,h4,.h1,.h2,.h4,.h4{
 :root{
     --yellow: rgb(255, 232, 31);
     --black: rgb(23, 23, 23);
-    --white: rgb(244, 244, 244);
+    --red: rgb(228, 32, 43);
 }
 
 
@@ -22,8 +22,8 @@ h1,h2,h3,h4,.h1,.h2,.h4,.h4{
 .bg-black{
     background-color: var(--black);
 }
-.bg-white{
-    background-color: var(--white);
+.bg-red{
+    background-color: var(--red);
 }
 
 .text-yellow{
@@ -32,6 +32,26 @@ h1,h2,h3,h4,.h1,.h2,.h4,.h4{
 .text-black{
     color: var(--black)
 }
-.text-white{
-    color: var(--white)
+.text-red{
+    color: var(--red)
+}
+
+/* Navbar */
+
+.navbar{
+    height: 140px;
+    transition: 0.5s;
+}
+.nav-link{
+    color: var(--yellow);
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: white !important;
+    text-shadow: 2px 2px 5px var(--red), -2px -2px 5px var(--red);
+}
+
+.logo{
+    width: 50px;
 }
