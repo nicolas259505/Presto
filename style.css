@@ -144,3 +144,33 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+
+/* Pagina Annunci */
+
+.accordion-item, .accordion-button{
+    background-color: var(--black);
+    color: var(--yellow);
+}
+
+.accordion-button:not(.collapsed){
+    color: var(--red);
+    background-color: var(--black);
+    box-shadow: none;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.card-custom{
+    height: 200px;
+    width: 30%;
+    border: 2px solid var(--yellow);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}

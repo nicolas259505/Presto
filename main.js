@@ -91,7 +91,7 @@ createInterval(100, firstNumber, 100);
 createInterval(200, secondNumber, 50);
 createInterval(300, thirdNumber, 20);
 
-//IntersectioonObserver: è una Classe del browser che si occupa di far scattare una funzione nel momento in cui sul browser sono visibili gli elementi HTML che noi gli indichiamo 
+//IntersectionObserver: è una Classe del browser che si occupa di far scattare una funzione nel momento in cui sul browser sono visibili gli elementi HTML che noi gli indichiamo 
 // new: keyword che mi permette di GENERARE un oggetto partendo da una Classe
 
 let observer = new IntersectionObserver((entries) => {
